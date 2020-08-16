@@ -1,0 +1,716 @@
+@media screen and (max-width: 1470px) {
+  /* .logo img {
+    height: 50px;
+  } */
+
+  .line {
+    display: none;
+  }
+  .logo {
+    flex: 1;
+  }
+  /* nav {
+    flex: 2;
+  }
+  .nav-links li a {
+    font-size: 17px;
+  } */
+
+  #showcase .showcase-content {
+    position: absolute;
+    top: 20%;
+  }
+
+  #showcase .showcase-content .showcase-text {
+    width: 90%;
+  }
+  #showcase .showcase-content .showcase-text h1 {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  #showcase .showcase-content .showcase-text a {
+    width: 50%;
+  }
+
+  #showcase .showcase-content .showcase-img img {
+    width: 550px;
+    height: 500px;
+  }
+
+  #leading .leading-content {
+    margin-top: 5rem;
+  }
+  #leading .leading-content .leading-text {
+    width: 120%;
+  }
+  #leading .leading-content .leading-text a {
+    width: 55%;
+  }
+
+  #leading .leading-content .leading-img img {
+    width: 450px;
+    height: 370px;
+  }
+  #download .download-content {
+    margin-top: 1rem;
+  }
+  #download .download-content .download-text {
+    width: 120%;
+  }
+  #download .download-content .download-text a {
+    width: 55%;
+  }
+
+  #download .download-content .download-img img {
+    width: 450px;
+    height: 370px;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  #showcase .showcase-content .showcase-text a {
+    width: 60%;
+  }
+
+  #leading .leading-content .leading-text {
+    width: 120%;
+  }
+  #leading .leading-content .leading-text a {
+    width: 55%;
+  }
+
+  #leading .leading-content .leading-img img {
+    width: 550px;
+    height: 470px;
+  }
+
+  #download .download-content .download-text {
+    width: 120%;
+  }
+  #download .download-content .download-text a {
+    width: 55%;
+  }
+
+  #download .download-content .download-img img {
+    width: 550px;
+    height: 470px;
+  }
+
+  #services {
+    width: 90%;
+  }
+  #what {
+    padding: 2rem 0rem;
+    width: 800px;
+  }
+  #what .what-content .what-edward {
+    position: absolute;
+    display: flex;
+    top: 220px;
+    left: -200px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  #services .services-content .card-container {
+    grid-gap: 2rem;
+  }
+
+  #leading .leading-content .leading-img img {
+    width: 450px;
+    height: 370px;
+  }
+  #download .download-content .download-img img {
+    width: 450px;
+    height: 370px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  #services {
+    width: 95%;
+  }
+  #services .services-content .card-container {
+    grid-gap: 1.5rem 0.5rem;
+  }
+
+  #services .services-content .card-container .card {
+    padding: 2rem 0.5rem 0rem 1.5rem;
+    width: 320px;
+    height: 300px;
+  }
+
+  #what {
+    padding: 2rem 0rem;
+    width: 800px;
+  }
+
+  #what .what-content .what-edward {
+    display: flex;
+    top: 220px;
+    left: -40px;
+  }
+  .what-edward-says h3 {
+    position: relative;
+    top: 0;
+    left: -100px;
+    width: 400px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .edward-pic {
+    justify-content: flex-start;
+    flex: 1;
+    /* width: 10%; */
+    top: -10px;
+    left: 50px;
+  }
+
+  .edward-founder h3 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  .edward-founder h5 {
+    font-size: 13px;
+  }
+
+  #footer .footer-container .footer-content {
+    grid-template-columns: 40% 20% 20% 20%;
+    grid-gap: 0rem;
+  }
+
+  #footer .footer-container .footer-content .footer-logo {
+    width: 80%;
+  }
+
+  #footer .footer-container .footer-content .footer-logo h3 {
+    margin: 0.5rem 0rem 2rem 0rem;
+    font-size: 16px;
+    line-height: 28px;
+    mix-blend-mode: normal;
+    width: 291px;
+  }
+
+  #footer .footer-container .footer-content .footer-logo h4 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 998px) {
+  /* .nav-toggle:checked ~ nav {
+    transform: scale(1, 1);
+  }
+
+  nav {
+    background: #5a98f2;
+  }
+  .nav-links {
+    display: block;
+    position: relative;
+    line-height: 3.4;
+    width: 100vw;
+    height: 100vh;
+    top: 150px;
+    right: 50px;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .nav-links li {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .nav-links li a {
+    font-size: 35%;
+    display: block;
+  } */
+
+  #showcase .showcase-content {
+    top: 30%;
+  }
+
+  #showcase .showcase-content .showcase-text h1 {
+    font-size: 35px;
+  }
+  #showcase .showcase-content .showcase-img img {
+    width: 350px;
+    height: 300px;
+  }
+
+  #services {
+    width: 80%;
+    margin-bottom: 4rem;
+  }
+  #services .services-content .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 0rem 0.5rem; */
+  }
+
+  .services-content a {
+    width: 30%;
+  }
+
+  #leading .leading-content {
+    margin-top: 23rem;
+  }
+
+  #leading .leading-content .leading-img img {
+    position: absolute;
+    top: 20%;
+    width: 350px;
+    height: 270px;
+  }
+
+  #leading .leading-content .leading-text h1 {
+    font-size: 28px;
+  }
+
+  #download .download-content .download-text a {
+    width: 60%;
+  }
+
+  #download .download-content .download-img img {
+    position: absolute;
+    top: 20%;
+    width: 350px;
+    height: 270px;
+  }
+
+  #download .download-content .download-text h1 {
+    font-size: 28px;
+  }
+
+  #what {
+    padding: 2rem 0rem;
+    width: 700px;
+  }
+
+  #what .what-content .what-edward {
+    position: absolute;
+    display: flex;
+    top: 180px;
+    left: -100px;
+  }
+
+  .what-edward-says h3 {
+    width: 400px;
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .edward-pic {
+    justify-content: flex-start;
+    flex: 1;
+    /* width: 10%; */
+    top: 10px;
+    left: 150px;
+  }
+
+  .edward-founder h3 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  .edward-founder h5 {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  /* nav {
+    background: #5a98f2;
+    height: 100vh;
+  }
+  .nav-links {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top: 150px;
+    right: 10px;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .nav-links li {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .nav-links li a {
+    font-size: 35%;
+    display: block;
+  } */
+
+  #showcase .showcase-content {
+    position: absolute;
+    top: 20%;
+  }
+
+  #showcase .showcase-content .showcase-text {
+    width: 100%;
+  }
+  #showcase .showcase-content .showcase-text h1 {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  #showcase .showcase-content .showcase-text a {
+    width: 60%;
+  }
+
+  #showcase .showcase-content .showcase-img img {
+    width: 350px;
+    height: 400px;
+  }
+
+  #article {
+    width: 80%;
+    height: 350vh;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+  }
+
+  #article .article-content .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .article-container .btn-light {
+    width: 50%;
+    font-size: 100%;
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .nav-toggle-label {
+    display: none;
+  }
+
+  .logo {
+    float: left;
+    width: 19%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  nav {
+    position: relative;
+    text-align: right;
+    transition: none;
+    transform: scale(1, 1);
+    background: none;
+    top: 100%;
+    left: initial;
+    width: initial;
+    float: right;
+    padding-top: 25px;
+
+    /* end Edge support stuff */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav li {
+    margin-right: 1em;
+    margin-left: 3em;
+    margin-bottom: 0;
+  }
+
+  nav a {
+    opacity: 1;
+    position: relative;
+  }
+
+  nav a::before {
+    content: "";
+    display: block;
+    background: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+  }
+
+  nav a:hover::before {
+    transform: scale(1, 1);
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .nav-toggle:checked ~ nav {
+    transform: scale(1, 1);
+  }
+
+  nav {
+    background: #5a98f2;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0.3);
+    top: 100%;
+    height: 60vh;
+  }
+
+  nav ul {
+    position: relative;
+    top: 20%;
+    left: 0%;
+    text-align: center;
+    font-size: 120%;
+  }
+
+  nav ul li {
+    line-height: 2;
+  }
+
+  #showcase {
+    height: 80vh;
+  }
+
+  #showcase .showcase-content {
+    top: 30%;
+  }
+
+  #showcase .showcase-content .showcase-text h1 {
+    font-size: 130%;
+  }
+  #showcase .showcase-content .showcase-text h4 {
+    font-size: 100%;
+  }
+  #showcase .showcase-content .showcase-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #showcase .showcase-content .showcase-text a {
+    width: 70%;
+    font-size: 80%;
+  }
+
+  #services {
+    position: relative;
+    width: 90%;
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+    height: 130vh;
+  }
+
+  #services .services-content h1 {
+    font-size: 170%;
+    margin-bottom: 3rem;
+  }
+  #services .services-content h4 {
+    font-size: 100%;
+    margin-bottom: 3rem;
+  }
+  #services .services-content .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 0rem 0.5rem; */
+  }
+
+  .services-content a {
+    width: 30%;
+  }
+
+  #leading {
+    margin-bottom: 10rem;
+    margin-top: 30rem;
+  }
+  #leading .leading-content .leading-img img {
+    position: absolute;
+    top: 20%;
+    width: 45%;
+    height: 60%;
+  }
+
+  #leading .leading-content .leading-text h1 {
+    font-size: 110%;
+  }
+  #leading .leading-content .leading-text h4 {
+    font-size: 90%;
+  }
+
+  #leading .leading-content .leading-text a {
+    width: 60%;
+  }
+
+  #download .download-content .download-text a {
+    width: 60%;
+  }
+
+  #download .download-content .download-img img {
+    position: absolute;
+    top: 20%;
+    width: 50%;
+    height: 70%;
+  }
+
+  #download .download-content .download-text h1 {
+    font-size: 110%;
+  }
+  #download .download-content .download-text h4 {
+    font-size: 90%;
+  }
+
+  #what {
+    padding: 2rem 0rem;
+    width: 700px;
+  }
+
+  #what .what-content h1 {
+    font-size: 140%;
+  }
+
+  #what .what-content .what-edward {
+    position: absolute;
+    display: flex;
+    top: 180px;
+    left: -100px;
+  }
+
+  .what-edward-says h3 {
+    width: 400px;
+    font-size: 90%;
+    line-height: 25px;
+  }
+
+  .edward-pic {
+    justify-content: flex-start;
+    flex: 1;
+    /* width: 10%; */
+    top: 0px;
+    left: 150px;
+  }
+
+  .edward-founder h3 {
+    font-size: 100%;
+    margin-bottom: 1rem;
+  }
+  .edward-founder h5 {
+    font-size: 80%;
+  }
+
+  #article {
+    margin-bottom: 0rem;
+  }
+  #article .article-content h1 {
+    font-size: 140%;
+    text-align: center;
+  }
+
+  .article-container .btn-light {
+    width: 50%;
+    font-size: 100%;
+    margin-top: 6rem;
+  }
+
+  #footer .footer-container .footer-content {
+    grid-template-columns: 40% 20% 20% 20%;
+    grid-gap: 0rem;
+  }
+
+  #footer .footer-container .footer-content .footer-logo {
+    width: 60%;
+  }
+
+  #footer .footer-container .footer-content .footer-logo h3 {
+    margin: 0.5rem 0rem 2rem 0rem;
+    font-size: 80%;
+    line-height: 28px;
+    mix-blend-mode: normal;
+    width: 130%;
+  }
+
+  #footer .footer-container .footer-content .footer-logo h4 {
+    font-size: 70%;
+  }
+
+  #footer a {
+    font-size: 80%;
+    line-height: 3;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #services .services-content .card-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+    position: absolute;
+    left: 25%;
+  }
+
+  #services .services-content a {
+    position: absolute;
+    top: 2400px;
+    left: 35%;
+  }
+
+  #leading {
+    position: relative;
+    top: 1150px;
+  }
+
+  #leading a {
+    width: 100%;
+    font-size: 100%;
+  }
+  #download {
+    position: relative;
+    top: 1150px;
+  }
+
+  #leading a {
+    width: 100%;
+    font-size: 100%;
+  }
+
+  #what {
+    position: relative;
+    top: 1150px;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+  }
+
+  #what .what-content .what-edward {
+    top: 120px;
+    left: -350px;
+  }
+
+  #what .edward-pic img,
+  #what .edward-founder h5 {
+    display: none;
+  }
+
+  .what-edward-says {
+    position: relative;
+    top: 0;
+    left: 90%;
+    width: 500px;
+  }
+
+  .what-edward-says h3 {
+    position: relative;
+    width: 790px;
+    font-size: 90%;
+    line-height: 30px;
+  }
+
+  #what .edward-founder {
+    position: relative;
+    top: 130px;
+    left: 400px;
+  }
+
+  #article {
+    position: relative;
+    top: 1250px;
+  }
+  #footer {
+    position: relative;
+    top: 900px;
+  }
+}
