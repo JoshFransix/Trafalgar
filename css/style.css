@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap");
 
+:root {
+  --animation-color: rgb(224, 237, 253);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +66,7 @@ header {
 
 .container {
   max-width: 80%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .hamburger {
@@ -111,12 +115,13 @@ header {
 nav {
   position: absolute;
   text-align: left;
-  top: 10%;
+  /* top: 80%; */
   left: 0;
   width: 100%;
   transform: scale(0, 1);
   transform-origin: left;
   transition: transform 400ms ease-in-out;
+  /* background: red; */
 }
 
 nav ul {
@@ -699,4 +704,105 @@ nav a:hover {
   top: -70px;
   right: 0;
   z-index: -1;
+}
+
+.roll {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 3px dotted #3a74d1;
+  z-index: -1;
+  display: none;
+}
+
+#showcase .showcase-container .show-box1 {
+  top: -40%;
+  right: 0%;
+  animation: rotate 3s linear forwards infinite;
+}
+#showcase .showcase-container .show-box2 {
+  top: -40%;
+  right: 0%;
+  animation: rotate 5s linear forwards infinite;
+}
+#showcase .showcase-container .show-box3 {
+  top: -40%;
+  left: 0%;
+  animation: rotate 5s linear forwards infinite;
+}
+#showcase .showcase-container .show-box4 {
+  top: -40%;
+  left: 0%;
+  animation: rotate 3s linear forwards infinite;
+}
+#showcase .showcase-container .show-box5 {
+  bottom: -40%;
+  right: 0%;
+  animation: rotate 5s linear forwards infinite;
+}
+#showcase .showcase-container .show-box6 {
+  bottom: -40%;
+  right: 0%;
+  animation: rotate 3s linear forwards infinite;
+}
+#showcase .showcase-container .show-box7 {
+  bottom: -40%;
+  right: 10%;
+  animation: rotate 5s linear forwards infinite;
+}
+#showcase .showcase-container .show-box8 {
+  bottom: -40%;
+  right: 10%;
+  animation: rotate 3s linear forwards infinite;
+}
+#showcase .showcase-container .show-box9 {
+  top: -40%;
+  left: 10%;
+  animation: rotate 5s linear forwards infinite;
+}
+#showcase .showcase-container .show-box10 {
+  top: -40%;
+  left: 10%;
+  animation: rotate 3s linear forwards infinite;
+}
+
+#showcase .showcase-container .show-box11 {
+  top: -40%;
+  right: 10%;
+  animation: rotate 3s linear forwards infinite;
+}
+#showcase .showcase-container .show-box12 {
+  top: -40%;
+  right: 10%;
+  animation: rotate 5s linear forwards infinite;
+}
+
+#showcase .showcase-container .show-box13 {
+  bottom: -40%;
+  left: 10%;
+  animation: rotate 5s linear forwards infinite;
+}
+#showcase .showcase-container .show-box14 {
+  bottom: -40%;
+  left: 10%;
+  animation: rotate 3s linear forwards infinite;
+}
+#showcase .showcase-container .show-box15 {
+  bottom: -40%;
+  left: 0%;
+  animation: rotate 5s linear forwards infinite;
+}
+#showcase .showcase-container .show-box16 {
+  bottom: -40%;
+  left: 0%;
+  animation: rotate 3s linear forwards infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }
