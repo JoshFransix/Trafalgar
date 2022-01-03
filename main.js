@@ -36,16 +36,16 @@ window.addEventListener("scroll", function () {
   header.classList.toggle("sticky", window.scrollY > 0);
 });
 
-// Create li element
-lis = document.createElement("li");
+// // Create li element
+// lis = document.createElement("li");
 
-// Create link element
-link = document.createElement("a");
+// // Create link element
+// link = document.createElement("a");
 
-link.appendChild(document.createTextNode("PRODUCTION"));
+// link.appendChild(document.createTextNode("PRODUCTION"));
 
-lis.appendChild(link);
+// lis.appendChild(link);
 
-lis.style.cursor = "pointer";
-// Append to ul
-document.querySelector("nav ul.nav-links").appendChild(lis);
+// lis.style.cursor = "pointer";
+// // Append to ul
+// document.querySelector("nav ul.nav-links").appendChild(lis);
