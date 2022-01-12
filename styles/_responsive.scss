@@ -453,8 +453,16 @@
     }
   }
 
-  // .what-edward-says {
-  //   width: 100%;
-  //   // text-align: center;
-  // }
+  #article {
+    width: 85%;
+    margin-top: 4rem;
+  }
+
+  #article .article-content h1 {
+    font-size: 30px;
+  }
+
+  #article .article-content .card-container {
+    margin-top: 2rem;
+  }
 }
