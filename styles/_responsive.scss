@@ -374,14 +374,15 @@
   }
 
   #services .services-content a {
-    top: 2440px;
-    left: 20%;
-    width: 60%;
+    width: 80%;
   }
 
-  #leading .leading-content .leading-text a {
-    margin-left: 20%;
-    width: 50%;
+  #leading {
+    width: 85%;
+    .leading-content .leading-text a {
+      // margin-left: 20%;
+      width: 80%;
+    }
   }
 
   #download .download-content .download-text a {
