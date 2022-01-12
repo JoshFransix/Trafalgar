@@ -465,4 +465,34 @@
   #article .article-content .card-container {
     margin-top: 2rem;
   }
+
+  // #footer .footer-container .footer-content .footer-logo {
+  //   width: 90%;
+  // }
+
+  #footer .footer-container .footer-content {
+    .footer-region {
+      margin-top: -1rem;
+    }
+    .footer-logo {
+      h3 {
+        // margin: 0.5rem 0rem 2rem 0rem;
+        font-size: 16px;
+        line-height: auto;
+        width: 100%;
+      }
+      h4 {
+        display: none;
+      }
+    }
+
+    #footer .footer-container .footer-content .footer-help {
+      h4 {
+        margin-top: 2rem;
+        display: block;
+        text-align: center;
+        font-size: 14px;
+      }
+    }
+  }
 }
