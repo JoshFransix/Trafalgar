@@ -379,6 +379,28 @@
 
   #leading {
     width: 85%;
+    margin-top: 2rem;
+    .leading-content {
+      .leading-text h1 {
+        font-size: 22px;
+        line-height: auto;
+        width: 100%;
+        color: #000;
+        // mix-blend-mode: normal;
+        margin-bottom: 0rem;
+      }
+
+      .leading-text h4 {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+        color: #7d7987;
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+      }
+    }
+
     .leading-content .leading-text a {
       // margin-left: 20%;
       width: 80%;
