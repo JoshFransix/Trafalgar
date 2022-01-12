@@ -391,25 +391,48 @@
       }
 
       .leading-text h4 {
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 16px;
+        line-height: auto;
         color: #7d7987;
         width: 100%;
         margin-bottom: 2rem;
-        margin-top: 2rem;
+        margin-top: 0rem;
       }
     }
 
     .leading-content .leading-text a {
-      // margin-left: 20%;
-      width: 80%;
+      font-size: 90%;
+      width: 60%;
     }
   }
 
-  #download .download-content .download-text a {
-    margin-left: 20%;
-    width: 50%;
+  #download {
+    width: 85%;
+    margin-top: 0rem;
+    .download-content {
+      .download-text h1 {
+        font-size: 22px;
+        line-height: auto;
+        width: 100%;
+        color: #000;
+        // mix-blend-mode: normal;
+        margin-bottom: 0rem;
+      }
+
+      .download-text h4 {
+        font-size: 16px;
+        line-height: auto;
+        color: #7d7987;
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-top: 0rem;
+      }
+    }
+
+    .download-content .download-text a {
+      font-size: 90%;
+      width: 60%;
+    }
   }
 
   // .what-edward-says {
