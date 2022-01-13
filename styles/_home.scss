@@ -3,8 +3,8 @@
   display: flex;
   align-items: center;
   height: 10vh;
-  // width: 100%;
-  // margin: auto;
+  width: 100vw;
+  margin: auto;
   padding: 0rem 4rem;
   z-index: 1000;
   transition: all 0.6s;
@@ -26,7 +26,7 @@
 
 nav {
   flex: 2;
-  // width: 100%;
+  width: 100%;
 }
 
 .nav-links {
@@ -556,7 +556,7 @@ nav {
 #footer .footer-container .footer-content .footer-help {
   margin-top: 0.5rem;
   h4 {
-    display: none;
+    opacity: 0;
   }
 }
 

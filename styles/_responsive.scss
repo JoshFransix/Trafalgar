@@ -355,7 +355,7 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
   #services .services-content h1 {
     font-size: 30px;
     margin-bottom: 1rem;
@@ -489,7 +489,7 @@
     #footer .footer-container .footer-content .footer-help {
       h4 {
         margin-top: 2rem;
-        display: block;
+        opacity: 1;
         text-align: center;
         font-size: 14px;
       }
