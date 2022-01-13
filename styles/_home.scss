@@ -613,6 +613,25 @@ nav {
   display: none;
 }
 
+#footer .footer-text {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  font-size: 15px;
+  font-family: "Space Mono";
+}
+
+#footer .footer-text a {
+  color: #c1c2df;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+#footer .footer-text a:hover {
+  color: var(--secondary-color);
+  transition: all 0.3s ease-in-out;
+}
+
 // #showcase .showcase-container .show-box1 {
 //   top: -40%;
 //   right: 0%;
