@@ -486,10 +486,10 @@
       }
     }
 
-    #footer .footer-container .footer-content .footer-help {
+    .footer-help {
       h4 {
         margin-top: 2rem;
-        opacity: 1;
+        opacity: 1 !important;
         text-align: center;
         font-size: 14px;
       }
