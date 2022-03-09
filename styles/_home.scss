@@ -320,6 +320,24 @@ nav {
 }
 #download .download-content .download-text a i {
   margin-left: 0.5rem;
+  animation: moveVertical 1000ms ease-in-out infinite alternate;
+}
+
+@keyframes moveVertical {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+@keyframes moveHorizontal {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
 }
 
 #download .download-content .download-img img {
@@ -474,6 +492,10 @@ nav {
 
 #article .article-content .card-container .card .card-text a {
   color: #4089ed;
+}
+#article .article-content .card-container .card .card-text a i {
+  margin-left: 0.3rem;
+  animation: moveHorizontal 1000ms ease-in-out infinite alternate;
 }
 
 .article-container .article-small-droplet {
